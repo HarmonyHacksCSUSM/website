@@ -36,7 +36,7 @@
   width: 50px;  /* Adjust size */
   height: 50px; /* Adjust size */
 
-  background-image: url('../assets/logos/harmonyHacksLogoNoText.png'); /* Path to the logo */
+  background-image: url('/website/assets/logos/harmonyHacksLogoNoText.png'); /* Path to the logo */
   background-size: cover; 
   background-position: center;  /* Position the image in the center */
   background-size: 150%;

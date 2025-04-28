@@ -15,7 +15,7 @@ const AboutMusicInfo = () => {
         <>
         <div className = "about-music-div">
             <div className = "about-music-left-div">
-                <img className="about-music-img" src="/assets/pictures/firstHackathon/firstWomensHackathonKickoff8.jpg" alt= "1st Harmony Hackathon Picture" />
+                <img className="about-music-img" src="/website/assets/pictures/firstHackathon/firstWomensHackathonKickoff8.jpg" alt= "1st Harmony Hackathon Picture" />
             </div>
             <div className = "about-music-right-div">
                 <h2 className = "page-h2 color-purple">♡ Curious about where this music is from? </h2>

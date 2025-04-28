@@ -47,7 +47,7 @@ const Testimonial = () => {
         <div className="contact-testimonial-img-div">
           <img
             className="contact-testimonial-img"
-            src={member.testimonial_image || "/assets/temp.png"}
+            src={member.testimonial_image || "/website/assets/temp.png"}
             alt={`${member.testimonial_name}`}
           />
         </div>

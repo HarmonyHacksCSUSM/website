@@ -43,7 +43,7 @@ const EarlyMilestonesList = () => {
                     <p className = "page-p color-purple">{member.milestone_description}</p>
                   </div>
                   <div>
-                    <img className="milestone-img" src={member.milestone_image || "/assets/temp.png"} alt={`${member.milestone_title}`} />
+                    <img className="milestone-img" src={member.milestone_image || "/website/assets/temp.png"} alt={`${member.milestone_title}`} />
                   </div>
                 </div>
               </VerticalTimelineElement>

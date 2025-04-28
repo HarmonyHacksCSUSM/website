@@ -85,7 +85,7 @@ export const MusicProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     <MusicContext.Provider value={{ currentTrack, isPlaying, play, pause, next, previous, volume, setVolume, audioRef }}>
       <audio
         ref={audioRef}
-        src={`/assets/music/${currentTrack.filename}`}
+        src={`/website/assets/music/${currentTrack.filename}`}
         loop
         autoPlay={isPlaying}
       />

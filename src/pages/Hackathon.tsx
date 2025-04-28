@@ -51,7 +51,7 @@ const Guide = () => {
                     <p className = "page-p color-purple">{member.hackathonStep_description}</p>
                     </div>
                     <div className="hackathon-guide-img-div">
-                    <img className="hackathon-guide-img" src={member.hackathonStep_image || "/assets/temp.png"} alt={`${member.hackathonStep_title}`} />
+                    <img className="hackathon-guide-img" src={member.hackathonStep_image || "/website/assets/temp.png"} alt={`${member.hackathonStep_title}`} />
                     </div>
                 </div>
                 </VerticalTimelineElement>

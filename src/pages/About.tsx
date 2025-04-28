@@ -26,7 +26,7 @@ const History = () => {
   return (
     <section className = "about-history-section">
       <div>
-        <img className = "about-history-img " src="/assets/pictures/firstGbm/firstGbm2.jpg" alt="First GBM with Harmony Hacks" />
+        <img className = "about-history-img " src="/website/assets/pictures/firstGbm/firstGbm2.jpg" alt="First GBM with Harmony Hacks" />
       </div>
       <div className = "about-history-content-div">
         <h2 className = "page-h2 color-purple">♡ History </h2>
@@ -57,7 +57,7 @@ const Founders = () => {
         </p>
       </div>
       <div>
-        <img className = "about-founders-img" src="/assets/pictures/firstGbm/firstGbm7.jpg" alt="First GBM with Harmony Hacks Founders" />
+        <img className = "about-founders-img" src="/website/assets/pictures/firstGbm/firstGbm7.jpg" alt="First GBM with Harmony Hacks Founders" />
       </div>
     </section>
   );
@@ -71,7 +71,7 @@ const Board = () => {
       <div className="about-board-cards-container">
         {contactData.map((member: BoardMember) => (
           <div key={member.id} className="about-board-card">
-            <img className="about-board-card-img" src={member.board_image || "/assets/temp.png"} alt={`${member.board_name}`} />
+            <img className="about-board-card-img" src={member.board_image || "/website/assets/temp.png"} alt={`${member.board_name}`} />
             <h3 className="about-h3 color-darkpurple">{member.board_name}</h3>
             <h3 className="about-h3 color-darkpurple">{member.board_position}</h3>
             <p className="page-p color-pink">{member.board_email}</p>
