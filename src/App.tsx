@@ -1,6 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // <-- changed
-import { NavbarBootstrap } from './components/NavbarBS';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
@@ -16,28 +15,37 @@ import Hackathon from './pages/Hackathon';
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <BrowserRouter basename="/website">
       <ScrollToTop />
       <MusicProvider>
         <Music />
-        <div className="d-flex flex-column min-vh-100">
-          <NavbarBootstrap />
-          <main className="flex-grow-1">
-            <Routes> {/* Only one <Routes> */}
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/events" element={<Events />} />
-              <Route path="/resources" element={<Resources />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/earlyMilestones" element={<EarlyMilestones />} />
-              <Route path="/aboutMusic" element={<AboutMusic />} />
-              <Route path="/hackathon" element={<Hackathon />} />
-            </Routes>
-          </main>
-          <Footer />
-        </div>
+        <Routes>
+          <Route
+            path="/*"
+            element={
+              <>
+                <NavbarBootstrap />
+                <div className="d-flex flex-column min-vh-100">
+                  <main className="flex-grow-1">
+                    <Routes>
+                      <Route path="/" element={<Home />} />
+                      <Route path="/about" element={<About />} />
+                      <Route path="/events" element={<Events />} />
+                      <Route path="/resources" element={<Resources />} />
+                      <Route path="/contact" element={<Contact />} />
+                      <Route path="/earlyMilestones" element={<EarlyMilestones />} />
+                      <Route path="/aboutMusic" element={<AboutMusic />} />
+                      <Route path="/hackathon" element={<Hackathon />} />
+                    </Routes>
+                  </main>
+                  <Footer />
+                </div>
+              </>
+            }
+          />
+        </Routes>
       </MusicProvider>
-    </Router>
+    </BrowserRouter>
   );
 };
 
