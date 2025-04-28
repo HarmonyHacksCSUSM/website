@@ -12,6 +12,7 @@ import Music from './components/Music';
 import AboutMusic from './pages/AboutMusic';
 import { MusicProvider } from './context/MusicContext';
 import Hackathon from './pages/Hackathon';
+import NavbarBootstrap from './components/NavbarBS';
 
 const App: React.FC = () => {
   return (
