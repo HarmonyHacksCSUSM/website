@@ -171,8 +171,8 @@ const RecentEvents: React.FC = () => {
                 <img className = "recent-events-img" src={card.image} alt={card.title} />
               </div>
               <div className = "recent-events-text-div">
-                <h3 className="card-title">{card.title}</h3>
-                <p className="card-description">{card.description}</p>
+                <h3 className="recent-events-card-title">{card.title}</h3>
+                <p className="recent-events-card-description">{card.description}</p>
               </div>
             </div>
 
