@@ -1,29 +1,8 @@
 [
   {
-    "title": "♡ junimo dance ♡",
-    "artist": "junimo squad",
-    "filename": "junimoSquadMusic.mp3",
-    "autoplay": true,
-    "loop": true
-  },
-  {
-    "title": "♡ disrupt ♡",
-    "artist": "firewall flowers",
-    "filename": "firewallFlowersMusic.mp3",
-    "autoplay": true,
-    "loop": true
-  },
-  {
-    "title": "♡ cryptic flow ♡",
-    "artist": "code blooded",
-    "filename": "codeBloodedCrypticFlow.mp3",
-    "autoplay": true,
-    "loop": true
-  },
-  {
-    "title": "♡ we can. so we will. ♡",
-    "artist": "the girls who can",
-    "filename": "theGirlsWhoCanMusic.mp3",
+    "title": "♡ picnic on mars ♡",
+    "artist": "natalie raphael, taylor tucker, havanna robbins, rosemary cardoso, estrella sanchez garcia",
+    "filename": "picnicOnMars.mp3",
     "autoplay": true,
     "loop": true
   }
