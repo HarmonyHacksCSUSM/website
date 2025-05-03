@@ -14,6 +14,8 @@ import { MusicProvider } from './context/MusicContext';
 import Hackathon from './pages/Hackathon';
 import NavbarBootstrap from './components/NavbarBS';
 
+localStorage.clear();
+
 const App: React.FC = () => {
   return (
     <BrowserRouter basename="/website">
