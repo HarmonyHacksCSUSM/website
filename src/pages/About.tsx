@@ -49,7 +49,7 @@ const Founders = () => {
       <div className = "about-founders-content-div">
         <br/>
         <h2 className = "page-h2 color-green">♡ Meet the Founders </h2>
-        <p className = "page-p color-white"> Harmony Hacks was founded by a group of seven driven women brought together by Dr. Ouyang and Dr. Hou, who shared a vision to increase the representation of women in computing. United by a shared passion for creating meaningful change, the founding members laid the foundation for a community centered on <span className = "bold">leadership, connection, and inclusivity.</span>.
+        <p className = "page-p color-white"> Harmony Hacks was founded by a group of seven driven women brought together by Dr. Ouyang and Dr. Hou, who shared a vision to increase the representation of women in computing. United by a shared passion for creating meaningful change, the founding members laid the foundation for a community centered on <span className = "bold">leadership, connection, and inclusivity</span>.
         </p>
         <p className = "page-p color-white"> The founding team collaborated to define the club’s identity — developing its mission, designing impactful events, and laying the groundwork for a supportive and empowering environment for women in tech. Through collaboration, creativity, and perseverance, they transformed an idea into a thriving community.
         </p>
