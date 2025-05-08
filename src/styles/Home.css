@@ -395,4 +395,10 @@
         height: 10rem;
     }
 
+    .arrow-left, .arrow-right {
+        font-size: 3rem;
+        width: 2rem;
+        height: 2rem;
+    }
+
 }
